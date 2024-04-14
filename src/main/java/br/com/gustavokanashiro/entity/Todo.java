@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 //Definição de dominio da aplicação
 @Entity
 @Table(name = "todos")
+
 public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,7 +15,6 @@ public class Todo {
     private String descricao;
     private boolean realizado;
     private int prioridade;
-
     public Long getId() {
         return id;
     }

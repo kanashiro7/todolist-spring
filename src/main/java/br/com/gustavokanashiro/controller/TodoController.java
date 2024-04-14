@@ -22,7 +22,7 @@ public class TodoController {
     List<Todo> update(@RequestBody Todo todo){
         return todoService.update(todo);
     }
-    @DeleteMapping("{id")
+    @DeleteMapping("{id}")
     List<Todo> delete(@PathVariable("id") Long id){
         return todoService.delete(id);
     }
