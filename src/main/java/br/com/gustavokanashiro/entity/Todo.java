@@ -30,7 +30,6 @@ public class Todo {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
     public String getDescricao() {
         return descricao;
     }
